@@ -30,7 +30,7 @@ void ova_Cleanup(GLFWwindow* window){
 }
 
 void ova_Run(){
-	GLFWwindow* ovaWindow;		// ovaWindow ptr stores the window created by glfw
+	GLFWwindow* ovaWindow;		// ovaWindow ptr stores the window's handle created by glfw
 	ova_InitWindow(&ovaWindow);
 	ova_InitVulkan();
 	ova_MainLoop(ovaWindow);
